@@ -10,8 +10,6 @@ public class PalindromeSubstringMain {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
         Map<String, String> tests = ImmutableMap.of(
                 "abc", "abc",
                 "aba", "",
@@ -23,6 +21,7 @@ public class PalindromeSubstringMain {
 
         tests.entrySet().stream().forEach(entry -> {
             String result = palindromeSubstringDP.solution(entry.getKey());
+            System.out.println(entry.getValue().equals(result));
             System.out.println("result for input " + entry.getKey() + " is :" + result + " expected is: " + entry.getValue());
         });
     }

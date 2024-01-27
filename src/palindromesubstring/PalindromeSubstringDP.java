@@ -42,6 +42,8 @@ public class PalindromeSubstringDP {
             while (end > start) {
                 if (res[start][end] == 0) {
                     end--;
+                } else {
+                    break;
                 }
             }
             if (start == end) {
