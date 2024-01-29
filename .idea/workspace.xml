@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ce1ec5-676f-421a-b150-26c8b2ab7eb9" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/palindromesubstring/PalindromeSubstringCut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smoothfilter/SmoothFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smoothfilter/SmoothFilterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding-practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coding-practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/palindromesubstring/PalindromeSubstringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/palindromesubstring/PalindromeSubstringMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
