@@ -17,10 +17,10 @@ public class PalindromeSubstringMain {
                 "aaacde", "cde",
                 "codesignal", "codesignal"
         );
-        PalindromeSubstringDP palindromeSubstringDP = new PalindromeSubstringDP();
+        PalindromeSubstringCut solution = new PalindromeSubstringCut();
 
         tests.entrySet().stream().forEach(entry -> {
-            String result = palindromeSubstringDP.solution(entry.getKey());
+            String result = solution.solution(entry.getKey());
             System.out.println(entry.getValue().equals(result));
             System.out.println("result for input " + entry.getKey() + " is :" + result + " expected is: " + entry.getValue());
         });
