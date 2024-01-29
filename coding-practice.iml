@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="diffplug.guava.collect" level="application" />
+    <orderEntry type="library" name="testng" level="application" />
   </component>
 </module>

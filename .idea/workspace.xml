@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="11ce1ec5-676f-421a-b150-26c8b2ab7eb9" name="Changes" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/palindromesubstring/PalindromeSubstringDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/palindromesubstring/PalindromeSubstringDP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/palindromesubstring/PalindromeSubstringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/palindromesubstring/PalindromeSubstringMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +41,14 @@
     "Application.Main.executor": "Run",
     "Application.PalindromeSubstringMain.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.Annotations": "true",
     "Repository.Attach.JavaDocs": "true",
     "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.SmoothFilterTest.executor": "Run",
+    "TestNG.SmoothFilterTest.test.executor": "Run",
+    "TestNG.SmoothFilterTest.testHappy2by2.executor": "Run",
     "git-widget-placeholder": "bopan/testbranch",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/bopan/IdeaProjects/coding-practice/src/Main.java",
@@ -56,7 +57,12 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="palindromesubstring" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.SmoothFilterTest">
     <configuration name="PalindromeSubstringMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="palindromesubstring.PalindromeSubstringMain" />
       <module name="coding-practice" />
@@ -64,8 +70,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmoothFilterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="coding-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="smoothfilter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="smoothfilter" />
+      <option name="MAIN_CLASS_NAME" value="smoothfilter.SmoothFilterTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmoothFilterTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="coding-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="smoothfilter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="smoothfilter" />
+      <option name="MAIN_CLASS_NAME" value="smoothfilter.SmoothFilterTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmoothFilterTest.testHappy2by2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="coding-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="smoothfilter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="smoothfilter" />
+      <option name="MAIN_CLASS_NAME" value="smoothfilter.SmoothFilterTest" />
+      <option name="METHOD_NAME" value="testHappy2by2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SmoothFilterTest" />
+        <item itemvalue="TestNG.SmoothFilterTest.testHappy2by2" />
+        <item itemvalue="TestNG.SmoothFilterTest.test" />
         <item itemvalue="Application.PalindromeSubstringMain" />
       </list>
     </recent_temporary>
