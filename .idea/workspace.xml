@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ce1ec5-676f-421a-b150-26c8b2ab7eb9" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/rippling/drawingboard/DrawingBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rippling/drawingboard/DrawingBoardDisplayOpt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rippling/drawingboard/DrawingBoardImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rippling/drawingboard/DrawingBoardMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rippling/drawingboard/Layer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rippling/kvstore/KVStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rippling/kvstore/KVStoreImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rippling/kvstore/KVStoreImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ArrayUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -38,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DrawingBoardMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.PalindromeSubstringMain.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
@@ -46,13 +57,21 @@
     "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.KVStoreImplTest.testBasicCaseNoTrans.executor": "Run",
+    "TestNG.KVStoreImplTest.testTransCreate.executor": "Run",
+    "TestNG.KVStoreImplTest.testTransDelete.executor": "Run",
+    "TestNG.KVStoreImplTest.testTransFromPostPart3_1.executor": "Run",
+    "TestNG.KVStoreImplTest.testTransFromPostPart3_2.executor": "Run",
+    "TestNG.KVStoreImplTest.testTransHappyPath.executor": "Run",
+    "TestNG.KVStoreImplTest.testTransMultiThread.executor": "Run",
+    "TestNG.KVStoreImplTest.testTransRollback.executor": "Run",
     "TestNG.SmoothFilterTest.executor": "Run",
     "TestNG.SmoothFilterTest.test.executor": "Run",
     "TestNG.SmoothFilterTest.testHappy2by2.executor": "Run",
     "git-widget-placeholder": "bopan/testbranch",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/bopan/IdeaProjects/coding-practice/src/Main.java",
-    "project.structure.last.edited": "Global Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
@@ -62,42 +81,18 @@
       <recent name="palindromesubstring" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SmoothFilterTest">
-    <configuration name="PalindromeSubstringMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="palindromesubstring.PalindromeSubstringMain" />
-      <module name="coding-practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmoothFilterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.KVStoreImplTest.testTransMultiThread">
+    <configuration name="KVStoreImplTest.testTransDelete" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="smoothfilter.*" />
+          <option name="PATTERN" value="rippling.kvstore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="smoothfilter" />
-      <option name="MAIN_CLASS_NAME" value="smoothfilter.SmoothFilterTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmoothFilterTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="coding-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="smoothfilter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="smoothfilter" />
-      <option name="MAIN_CLASS_NAME" value="smoothfilter.SmoothFilterTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="rippling.kvstore" />
+      <option name="MAIN_CLASS_NAME" value="rippling.kvstore.KVStoreImplTest" />
+      <option name="METHOD_NAME" value="testTransDelete" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -105,17 +100,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmoothFilterTest.testHappy2by2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="KVStoreImplTest.testTransFromPostPart3_1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="smoothfilter.*" />
+          <option name="PATTERN" value="rippling.kvstore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="smoothfilter" />
-      <option name="MAIN_CLASS_NAME" value="smoothfilter.SmoothFilterTest" />
-      <option name="METHOD_NAME" value="testHappy2by2" />
+      <option name="PACKAGE_NAME" value="rippling.kvstore" />
+      <option name="MAIN_CLASS_NAME" value="rippling.kvstore.KVStoreImplTest" />
+      <option name="METHOD_NAME" value="testTransFromPostPart3_1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KVStoreImplTest.testTransFromPostPart3_2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="coding-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rippling.kvstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rippling.kvstore" />
+      <option name="MAIN_CLASS_NAME" value="rippling.kvstore.KVStoreImplTest" />
+      <option name="METHOD_NAME" value="testTransFromPostPart3_2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KVStoreImplTest.testTransMultiThread" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="coding-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rippling.kvstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rippling.kvstore" />
+      <option name="MAIN_CLASS_NAME" value="rippling.kvstore.KVStoreImplTest" />
+      <option name="METHOD_NAME" value="testTransMultiThread" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KVStoreImplTest.testTransRollback" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="coding-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rippling.kvstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rippling.kvstore" />
+      <option name="MAIN_CLASS_NAME" value="rippling.kvstore.KVStoreImplTest" />
+      <option name="METHOD_NAME" value="testTransRollback" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,10 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SmoothFilterTest" />
-        <item itemvalue="TestNG.SmoothFilterTest.testHappy2by2" />
-        <item itemvalue="TestNG.SmoothFilterTest.test" />
-        <item itemvalue="Application.PalindromeSubstringMain" />
+        <item itemvalue="TestNG.KVStoreImplTest.testTransMultiThread" />
+        <item itemvalue="TestNG.KVStoreImplTest.testTransFromPostPart3_2" />
+        <item itemvalue="TestNG.KVStoreImplTest.testTransFromPostPart3_1" />
+        <item itemvalue="TestNG.KVStoreImplTest.testTransDelete" />
+        <item itemvalue="TestNG.KVStoreImplTest.testTransRollback" />
       </list>
     </recent_temporary>
   </component>
