@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ce1ec5-676f-421a-b150-26c8b2ab7eb9" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/rippling/drawingboard/DrawingBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rippling/drawingboard/DrawingBoardDisplayOpt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rippling/drawingboard/DrawingBoardImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rippling/drawingboard/DrawingBoardMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rippling/drawingboard/Layer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rippling/kvstore/KVStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rippling/kvstore/KVStoreImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rippling/kvstore/KVStoreImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rippling/reporting/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rippling/reporting/HighestRating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rippling/reporting/HighestRatingMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ArrayUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rippling/kvstore/KVStoreImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rippling/kvstore/KVStoreImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rippling/kvstore/KVStoreImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rippling/kvstore/KVStoreImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.DrawingBoardMain.executor": "Run",
+    "Application.HighestRatingMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.PalindromeSubstringMain.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
@@ -57,6 +54,8 @@
     "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.HighestRatingMain.executor": "Run",
+    "TestNG.HighestRatingMain.testHappyPath.executor": "Run",
     "TestNG.KVStoreImplTest.testBasicCaseNoTrans.executor": "Run",
     "TestNG.KVStoreImplTest.testTransCreate.executor": "Run",
     "TestNG.KVStoreImplTest.testTransDelete.executor": "Run",
@@ -64,6 +63,7 @@
     "TestNG.KVStoreImplTest.testTransFromPostPart3_2.executor": "Run",
     "TestNG.KVStoreImplTest.testTransHappyPath.executor": "Run",
     "TestNG.KVStoreImplTest.testTransMultiThread.executor": "Run",
+    "TestNG.KVStoreImplTest.testTransMultiThreadMixedTrans.executor": "Run",
     "TestNG.KVStoreImplTest.testTransRollback.executor": "Run",
     "TestNG.SmoothFilterTest.executor": "Run",
     "TestNG.SmoothFilterTest.test.executor": "Run",
@@ -81,54 +81,48 @@
       <recent name="palindromesubstring" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.KVStoreImplTest.testTransMultiThread">
-    <configuration name="KVStoreImplTest.testTransDelete" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.HighestRatingMain">
+    <configuration name="HighestRatingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rippling.reporting.HighestRatingMain" />
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rippling.kvstore.*" />
+          <option name="PATTERN" value="rippling.reporting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rippling.kvstore" />
-      <option name="MAIN_CLASS_NAME" value="rippling.kvstore.KVStoreImplTest" />
-      <option name="METHOD_NAME" value="testTransDelete" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HighestRatingMain" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="coding-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rippling.reporting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rippling.reporting" />
+      <option name="MAIN_CLASS_NAME" value="rippling.reporting.HighestRatingMain" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KVStoreImplTest.testTransFromPostPart3_1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HighestRatingMain.testHappyPath" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rippling.kvstore.*" />
+          <option name="PATTERN" value="rippling.reporting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rippling.kvstore" />
-      <option name="MAIN_CLASS_NAME" value="rippling.kvstore.KVStoreImplTest" />
-      <option name="METHOD_NAME" value="testTransFromPostPart3_1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KVStoreImplTest.testTransFromPostPart3_2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="coding-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rippling.kvstore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rippling.kvstore" />
-      <option name="MAIN_CLASS_NAME" value="rippling.kvstore.KVStoreImplTest" />
-      <option name="METHOD_NAME" value="testTransFromPostPart3_2" />
+      <option name="PACKAGE_NAME" value="rippling.reporting" />
+      <option name="MAIN_CLASS_NAME" value="rippling.reporting.HighestRatingMain" />
+      <option name="METHOD_NAME" value="testHappyPath" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -154,7 +148,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KVStoreImplTest.testTransRollback" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="KVStoreImplTest.testTransMultiThreadMixedTrans" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
@@ -164,7 +158,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="rippling.kvstore" />
       <option name="MAIN_CLASS_NAME" value="rippling.kvstore.KVStoreImplTest" />
-      <option name="METHOD_NAME" value="testTransRollback" />
+      <option name="METHOD_NAME" value="testTransMultiThreadMixedTrans" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -174,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HighestRatingMain" />
+        <item itemvalue="TestNG.HighestRatingMain.testHappyPath" />
+        <item itemvalue="Application.HighestRatingMain" />
+        <item itemvalue="TestNG.KVStoreImplTest.testTransMultiThreadMixedTrans" />
         <item itemvalue="TestNG.KVStoreImplTest.testTransMultiThread" />
-        <item itemvalue="TestNG.KVStoreImplTest.testTransFromPostPart3_2" />
-        <item itemvalue="TestNG.KVStoreImplTest.testTransFromPostPart3_1" />
-        <item itemvalue="TestNG.KVStoreImplTest.testTransDelete" />
-        <item itemvalue="TestNG.KVStoreImplTest.testTransRollback" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +202,17 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />

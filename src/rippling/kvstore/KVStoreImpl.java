@@ -61,7 +61,9 @@ public class KVStoreImpl implements KVStore {
     @Override
     public String create(String key, String value) {
         if (!inTrans) {
+            lock.lock();
             store.put(key, value);
+            lock.unlock();
             return value;
         } else {
             this.latest.put(key, value);
@@ -73,11 +75,12 @@ public class KVStoreImpl implements KVStore {
     @Override
     public String update(String key, String value) {
         if (!inTrans) {
+            lock.lock();
             if (!store.containsKey(key)) {
                 return "[update] no key found for " + key;
             }
-
             store.put(key, value);
+            lock.unlock();
         } else {
             if (latest.containsKey(key) || store.containsKey(key)) {
                 latest.put(key, value);
@@ -92,10 +95,12 @@ public class KVStoreImpl implements KVStore {
     @Override
     public String delete(String key) {
         if (!inTrans) {
+            lock.lock();
             if (!store.containsKey(key)) {
                 return "[delete] no key found for " + key;
             }
             store.remove(key);
+            lock.unlock();
             return null;
         } else {
             if (latest.containsKey(key) || store.containsKey(key)) {
