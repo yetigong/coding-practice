@@ -216,4 +216,45 @@ public class KVStoreImplTest {
         thread1.join();
         thread2.join();
     }
+
+    @Test
+    public void testTransMultiThreadMixedTrans() throws InterruptedException {
+        KVStore kvStore = new KVStoreImpl();
+
+        kvStore.create("key1", "val1");
+        kvStore.create("key2", "val2");
+        kvStore.create("key3", "val3");
+        Thread thread1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("thread " + Thread.currentThread().getName() + " has started running!");
+                kvStore.begin();
+                kvStore.create("key1", "val101");
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+                Assert.assertEquals(kvStore.read("key1"), "val101");
+                kvStore.commit(1);
+                Assert.assertEquals(kvStore.read("key1"), "val101");
+            }
+        });
+
+        // thread 2 is supposed to execute on create and delete commands earlier. But because thread 1 has
+        // occupied the lock, thread 2 has to wait.
+        Thread thread2 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("thread " + Thread.currentThread().getName() + " has started running!");
+                kvStore.create("key1", "val201");
+                Assert.assertEquals(kvStore.read("key1"), "val201");
+            }
+        });
+
+        thread1.start();
+        thread2.start();
+        thread1.join();
+        thread2.join();
+    }
 }
