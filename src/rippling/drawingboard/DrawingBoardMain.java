@@ -1,5 +1,7 @@
 package rippling.drawingboard;
 
+import java.util.Objects;
+
 public class DrawingBoardMain {
     public static void main(String[] args){
         DrawingBoard board = new DrawingBoardDisplayOpt(5, 5);
@@ -25,5 +27,12 @@ public class DrawingBoardMain {
 
         board.move('b', 0, 1);
         board.display();
+
+        test(null);
+        Objects.requireNonNull()
+    }
+
+    private static String test(long input) {
+        return "test";
     }
 }
