@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ce1ec5-676f-421a-b150-26c8b2ab7eb9" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/CardGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/CardGameFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/samesuit/CardPointRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/samesuit/PlayerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/samesuit/SameSuitGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/samesuit/ScoringService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/samesuit/ScoringServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/comparegame/CompareGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rippling/drawingboard/DrawingBoardMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rippling/drawingboard/DrawingBoardMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scaleai/cards/CardGameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scaleai/cards/CardGameFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scaleai/cards/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scaleai/cards/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scaleai/cards/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scaleai/cards/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +67,8 @@
     "TestNG.KVStoreImplTest.testTransMultiThread.executor": "Run",
     "TestNG.KVStoreImplTest.testTransMultiThreadMixedTrans.executor": "Run",
     "TestNG.KVStoreImplTest.testTransRollback.executor": "Run",
-    "TestNG.ScoringServiceTest.testHappyPath.executor": "Run",
+    "TestNG.ScoringServiceTest.testHappyPath.executor": "Debug",
+    "TestNG.ScoringServiceTest.testTies.executor": "Run",
     "TestNG.SmoothFilterTest.executor": "Run",
     "TestNG.SmoothFilterTest.test.executor": "Run",
     "TestNG.SmoothFilterTest.testHappy2by2.executor": "Run",
@@ -91,7 +85,7 @@
       <recent name="palindromesubstring" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ScoringServiceTest.testTies">
+  <component name="RunManager" selected="Application.Driver">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="scaleai.cards.Driver" />
       <module name="coding-practice" />
@@ -178,9 +172,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Driver" />
         <item itemvalue="TestNG.ScoringServiceTest.testTies" />
         <item itemvalue="TestNG.ScoringServiceTest.testHappyPath" />
-        <item itemvalue="Application.Driver" />
         <item itemvalue="TestNG.HighestRatingMain" />
         <item itemvalue="TestNG.HighestRatingMain.testHappyPath" />
       </list>

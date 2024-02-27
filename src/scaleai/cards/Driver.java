@@ -14,7 +14,8 @@ public class Driver {
         Player cat = new Player("Cat");
         Player dog = new Player("Dog");
         Deck deck = new Deck();
-        CardGame game = CardGameFactory.getCardGame(CardGameFactory.GAME.SAME_SUIT_GAME,
+        deck.shuffle();
+        CardGame game = CardGameFactory.getCardGame(CardGameFactory.GAME.COMPARE_GAME,
                 ImmutableList.of(alice, bob, cat, dog),
                 deck);
         game.start();
