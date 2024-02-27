@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ce1ec5-676f-421a-b150-26c8b2ab7eb9" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/coupang/circuitbreaker/CircuitBreaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coupang/circuitbreaker/HealthMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coupang/circuitbreaker/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coupang/circuitbreaker/StateManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coupang/circuitbreaker/WrappedClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/CardGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/CardGameFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/samesuit/CardPointRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/samesuit/PlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/samesuit/SameSuitGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/samesuit/ScoringService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/samesuit/ScoringServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rippling/drawingboard/DrawingBoardMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rippling/drawingboard/DrawingBoardMain.java" afterDir="false" />
     </list>
@@ -21,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -44,52 +50,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DrawingBoardMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HighestRatingMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PalindromeSubstringMain.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.HighestRatingMain.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HighestRatingMain.testHappyPath.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.KVStoreImplTest.testBasicCaseNoTrans.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.KVStoreImplTest.testTransCreate.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.KVStoreImplTest.testTransDelete.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.KVStoreImplTest.testTransFromPostPart3_1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.KVStoreImplTest.testTransFromPostPart3_2.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.KVStoreImplTest.testTransHappyPath.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.KVStoreImplTest.testTransMultiThread.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.KVStoreImplTest.testTransMultiThreadMixedTrans.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.KVStoreImplTest.testTransRollback.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SmoothFilterTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SmoothFilterTest.test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SmoothFilterTest.testHappy2by2.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;bopan/testbranch&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/bopan/IdeaProjects/coding-practice/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DrawingBoardMain.executor": "Run",
+    "Application.Driver.executor": "Run",
+    "Application.HighestRatingMain.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PalindromeSubstringMain.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.HighestRatingMain.executor": "Run",
+    "TestNG.HighestRatingMain.testHappyPath.executor": "Run",
+    "TestNG.KVStoreImplTest.testBasicCaseNoTrans.executor": "Run",
+    "TestNG.KVStoreImplTest.testTransCreate.executor": "Run",
+    "TestNG.KVStoreImplTest.testTransDelete.executor": "Run",
+    "TestNG.KVStoreImplTest.testTransFromPostPart3_1.executor": "Run",
+    "TestNG.KVStoreImplTest.testTransFromPostPart3_2.executor": "Run",
+    "TestNG.KVStoreImplTest.testTransHappyPath.executor": "Run",
+    "TestNG.KVStoreImplTest.testTransMultiThread.executor": "Run",
+    "TestNG.KVStoreImplTest.testTransMultiThreadMixedTrans.executor": "Run",
+    "TestNG.KVStoreImplTest.testTransRollback.executor": "Run",
+    "TestNG.ScoringServiceTest.testHappyPath.executor": "Run",
+    "TestNG.SmoothFilterTest.executor": "Run",
+    "TestNG.SmoothFilterTest.test.executor": "Run",
+    "TestNG.SmoothFilterTest.testHappy2by2.executor": "Run",
+    "git-widget-placeholder": "bopan/testbranch",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/Users/bopan/IdeaProjects/coding-practice/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="palindromesubstring" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HighestRatingMain">
-    <configuration name="HighestRatingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rippling.reporting.HighestRatingMain" />
+  <component name="RunManager" selected="TestNG.ScoringServiceTest.testTies">
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scaleai.cards.Driver" />
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rippling.reporting.*" />
+          <option name="PATTERN" value="scaleai.cards.samesuit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,17 +140,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KVStoreImplTest.testTransMultiThread" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ScoringServiceTest.testHappyPath" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rippling.kvstore.*" />
+          <option name="PATTERN" value="scaleai.cards.samesuit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rippling.kvstore" />
-      <option name="MAIN_CLASS_NAME" value="rippling.kvstore.KVStoreImplTest" />
-      <option name="METHOD_NAME" value="testTransMultiThread" />
+      <option name="PACKAGE_NAME" value="scaleai.cards.samesuit" />
+      <option name="MAIN_CLASS_NAME" value="scaleai.cards.samesuit.ScoringServiceTest" />
+      <option name="METHOD_NAME" value="testHappyPath" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -150,17 +158,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KVStoreImplTest.testTransMultiThreadMixedTrans" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ScoringServiceTest.testTies" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rippling.kvstore.*" />
+          <option name="PATTERN" value="scaleai.cards.samesuit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rippling.kvstore" />
-      <option name="MAIN_CLASS_NAME" value="rippling.kvstore.KVStoreImplTest" />
-      <option name="METHOD_NAME" value="testTransMultiThreadMixedTrans" />
+      <option name="PACKAGE_NAME" value="scaleai.cards.samesuit" />
+      <option name="MAIN_CLASS_NAME" value="scaleai.cards.samesuit.ScoringServiceTest" />
+      <option name="METHOD_NAME" value="testTies" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -170,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ScoringServiceTest.testTies" />
+        <item itemvalue="TestNG.ScoringServiceTest.testHappyPath" />
+        <item itemvalue="Application.Driver" />
         <item itemvalue="TestNG.HighestRatingMain" />
         <item itemvalue="TestNG.HighestRatingMain.testHappyPath" />
-        <item itemvalue="Application.HighestRatingMain" />
-        <item itemvalue="TestNG.KVStoreImplTest.testTransMultiThreadMixedTrans" />
-        <item itemvalue="TestNG.KVStoreImplTest.testTransMultiThread" />
       </list>
     </recent_temporary>
   </component>
