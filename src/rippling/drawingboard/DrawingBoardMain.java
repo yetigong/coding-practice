@@ -28,8 +28,6 @@ public class DrawingBoardMain {
         board.move('b', 0, 1);
         board.display();
 
-        test(null);
-        Objects.requireNonNull()
     }
 
     private static String test(long input) {
