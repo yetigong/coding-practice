@@ -5,12 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ce1ec5-676f-421a-b150-26c8b2ab7eb9" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/scaleai/cards/comparegame/CompareGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/cameraintensity/CameraIntensity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/cameraintensity/CameraIntensityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/cameraintensity/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/cameraintensity/MotionPeriod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/commonprefix/CommonPrefixes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/commonprefix/CommonPrefixesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/mergefiles/MergeFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/mergefiles/log1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/mergefiles/log2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/mergefiles/log3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/mergefiles/log4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/mergefiles/log5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/oddintervals/OddIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/oddintervals/OddIntervalsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/shortestpath/ShortestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/shortestpath/ShortestPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/transpose/Transpose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/transpose/TransposeInplace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/transpose/TransposeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/wordle/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/wordle/WordleGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/wordle/WordleSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verkd/wordle/WordleSolverDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scaleai/cards/CardGameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scaleai/cards/CardGameFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scaleai/cards/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scaleai/cards/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scaleai/cards/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scaleai/cards/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +67,22 @@
     "Application.Driver.executor": "Run",
     "Application.HighestRatingMain.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MergeFiles.executor": "Debug",
     "Application.PalindromeSubstringMain.executor": "Run",
+    "Application.WordleSolverDriver.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
     "Repository.Attach.Annotations": "true",
     "Repository.Attach.JavaDocs": "true",
     "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.CameraIntensityTest.multiCamsTest1.executor": "Run",
+    "TestNG.CameraIntensityTest.multiCamsTest2.executor": "Run",
+    "TestNG.CameraIntensityTest.testSingleCase.executor": "Debug",
+    "TestNG.CameraIntensityTest.testSingleCase2.executor": "Run",
+    "TestNG.CameraIntensityTest.testSingleCase3.executor": "Run",
+    "TestNG.CameraIntensityTest.testSingleCase4.executor": "Run",
+    "TestNG.CommonPrefixesTest.testSimpleCase.executor": "Run",
     "TestNG.HighestRatingMain.executor": "Run",
     "TestNG.HighestRatingMain.testHappyPath.executor": "Run",
     "TestNG.KVStoreImplTest.testBasicCaseNoTrans.executor": "Run",
@@ -67,13 +94,23 @@
     "TestNG.KVStoreImplTest.testTransMultiThread.executor": "Run",
     "TestNG.KVStoreImplTest.testTransMultiThreadMixedTrans.executor": "Run",
     "TestNG.KVStoreImplTest.testTransRollback.executor": "Run",
+    "TestNG.OddIntervalsTest.testOddIntervalsCase1.executor": "Run",
     "TestNG.ScoringServiceTest.testHappyPath.executor": "Debug",
     "TestNG.ScoringServiceTest.testTies.executor": "Run",
+    "TestNG.ShortestPathTest.executor": "Run",
+    "TestNG.ShortestPathTest.testDKCase2.executor": "Run",
+    "TestNG.ShortestPathTest.testDKSimpleCase.executor": "Run",
+    "TestNG.ShortestPathTest.testSimpleCase.executor": "Run",
+    "TestNG.ShortestPathTest.testSimpleCase2.executor": "Run",
     "TestNG.SmoothFilterTest.executor": "Run",
     "TestNG.SmoothFilterTest.test.executor": "Run",
     "TestNG.SmoothFilterTest.testHappy2by2.executor": "Run",
+    "TestNG.TransposeTest.testTranspose.executor": "Run",
+    "TestNG.TransposeTest.testTransposeInplace.executor": "Run",
+    "TestNG.TransposeTest.testTransposeLarge.executor": "Run",
     "git-widget-placeholder": "bopan/testbranch",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/bopan/IdeaProjects/coding-practice/src/verkd/mergefiles",
     "onboarding.tips.debug.path": "/Users/bopan/IdeaProjects/coding-practice/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -81,34 +118,61 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/verkd/mergefiles" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="verkd.transpose" />
       <recent name="palindromesubstring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Driver">
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="scaleai.cards.Driver" />
+  <component name="RunManager" selected="TestNG.OddIntervalsTest.testOddIntervalsCase1">
+    <configuration name="CommonPrefixesTest.testSimpleCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scaleai.cards.samesuit.*" />
+          <option name="PATTERN" value="verkd.commonprefix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="verkd.commonprefix" />
+      <option name="MAIN_CLASS_NAME" value="verkd.commonprefix.CommonPrefixesTest" />
+      <option name="METHOD_NAME" value="testSimpleCase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HighestRatingMain" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OddIntervalsTest.testOddIntervalsCase1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rippling.reporting.*" />
+          <option name="PATTERN" value="verkd.oddintervals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rippling.reporting" />
-      <option name="MAIN_CLASS_NAME" value="rippling.reporting.HighestRatingMain" />
+      <option name="PACKAGE_NAME" value="verkd.oddintervals" />
+      <option name="MAIN_CLASS_NAME" value="verkd.oddintervals.OddIntervalsTest" />
+      <option name="METHOD_NAME" value="testOddIntervalsCase1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortestPathTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="coding-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="verkd.shortestpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="verkd.shortestpath" />
+      <option name="MAIN_CLASS_NAME" value="verkd.shortestpath.ShortestPathTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -116,17 +180,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HighestRatingMain.testHappyPath" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ShortestPathTest.testSimpleCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rippling.reporting.*" />
+          <option name="PATTERN" value="verkd.shortestpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rippling.reporting" />
-      <option name="MAIN_CLASS_NAME" value="rippling.reporting.HighestRatingMain" />
-      <option name="METHOD_NAME" value="testHappyPath" />
+      <option name="PACKAGE_NAME" value="verkd.shortestpath" />
+      <option name="MAIN_CLASS_NAME" value="verkd.shortestpath.ShortestPathTest" />
+      <option name="METHOD_NAME" value="testSimpleCase" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,35 +198,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScoringServiceTest.testHappyPath" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ShortestPathTest.testSimpleCase2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scaleai.cards.samesuit.*" />
+          <option name="PATTERN" value="verkd.shortestpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="scaleai.cards.samesuit" />
-      <option name="MAIN_CLASS_NAME" value="scaleai.cards.samesuit.ScoringServiceTest" />
-      <option name="METHOD_NAME" value="testHappyPath" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScoringServiceTest.testTies" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="coding-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scaleai.cards.samesuit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="scaleai.cards.samesuit" />
-      <option name="MAIN_CLASS_NAME" value="scaleai.cards.samesuit.ScoringServiceTest" />
-      <option name="METHOD_NAME" value="testTies" />
+      <option name="PACKAGE_NAME" value="verkd.shortestpath" />
+      <option name="MAIN_CLASS_NAME" value="verkd.shortestpath.ShortestPathTest" />
+      <option name="METHOD_NAME" value="testSimpleCase2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -172,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Driver" />
-        <item itemvalue="TestNG.ScoringServiceTest.testTies" />
-        <item itemvalue="TestNG.ScoringServiceTest.testHappyPath" />
-        <item itemvalue="TestNG.HighestRatingMain" />
-        <item itemvalue="TestNG.HighestRatingMain.testHappyPath" />
+        <item itemvalue="TestNG.OddIntervalsTest.testOddIntervalsCase1" />
+        <item itemvalue="TestNG.CommonPrefixesTest.testSimpleCase" />
+        <item itemvalue="TestNG.ShortestPathTest.testSimpleCase2" />
+        <item itemvalue="TestNG.ShortestPathTest.testSimpleCase" />
+        <item itemvalue="TestNG.ShortestPathTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,5 +267,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/verkd/transpose/TransposeTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
