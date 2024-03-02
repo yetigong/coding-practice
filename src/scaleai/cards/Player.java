@@ -1,9 +1,6 @@
 package scaleai.cards;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 /**
  * Player
@@ -46,6 +43,9 @@ public class Player {
     /**
      * Since no strategy needs to be considered, we just play the first card if no card found in suit.
      * TODO: optimize for strategies later
+     *
+     * Ideally these play styles with a particular strategy should be defined in a subclass, either for player styles or
+     * for specific games.
      * @param starter
      * @return
      */
@@ -58,9 +58,23 @@ public class Player {
         return playRandom();
     }
 
+    /**
+     * Ideally these play styles with a particular strategy should be defined in a subclass, either for player styles or
+     * for specific games.
+     *
+     * @return
+     */
+    public Card playLargest() {
+        // convert to card as
+        Optional<Card> maxCard = this.hand.stream().max(Card::compareTo);
+        Card largest = maxCard.map(card ->this.play(this.hand.indexOf(card))).orElse(null);
+        return largest;
+    }
+
     private Card play(int index) {
         Card card = this.hand.remove(index);
         System.out.println(String.format("Player %s played %s", this.name, card));
         return card;
+
     }
 }
