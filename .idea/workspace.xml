@@ -5,30 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ce1ec5-676f-421a-b150-26c8b2ab7eb9" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/verkd/cameraintensity/CameraIntensity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/cameraintensity/CameraIntensityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/cameraintensity/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/cameraintensity/MotionPeriod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/commonprefix/CommonPrefixes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/commonprefix/CommonPrefixesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/mergefiles/MergeFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/mergefiles/log1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/mergefiles/log2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/mergefiles/log3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/mergefiles/log4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/mergefiles/log5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/oddintervals/OddIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/oddintervals/OddIntervalsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/shortestpath/ShortestPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/shortestpath/ShortestPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/transpose/Transpose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/transpose/TransposeInplace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/transpose/TransposeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/wordle/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/wordle/WordleGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/wordle/WordleSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/wordle/WordleSolverDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sigma/orders/ClientOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sigma/sheet/Spreadsheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zukesi/tickets/RollerCoaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zukesi/tickets/Tickets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/oddintervals/OddIntervalsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/verkd/oddintervals/OddIntervalsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +51,9 @@
     "Application.Main.executor": "Run",
     "Application.MergeFiles.executor": "Debug",
     "Application.PalindromeSubstringMain.executor": "Run",
+    "Application.RollerCoaster.executor": "Run",
+    "Application.Spreadsheet.executor": "Run",
+    "Application.Tickets.executor": "Run",
     "Application.WordleSolverDriver.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
     "Repository.Attach.Annotations": "true",
@@ -82,6 +67,8 @@
     "TestNG.CameraIntensityTest.testSingleCase2.executor": "Run",
     "TestNG.CameraIntensityTest.testSingleCase3.executor": "Run",
     "TestNG.CameraIntensityTest.testSingleCase4.executor": "Run",
+    "TestNG.ClientOrders.testGroupBy.executor": "Run",
+    "TestNG.ClientOrders.testLeftOuterJoin.executor": "Run",
     "TestNG.CommonPrefixesTest.testSimpleCase.executor": "Run",
     "TestNG.HighestRatingMain.executor": "Run",
     "TestNG.HighestRatingMain.testHappyPath.executor": "Run",
@@ -105,6 +92,9 @@
     "TestNG.SmoothFilterTest.executor": "Run",
     "TestNG.SmoothFilterTest.test.executor": "Run",
     "TestNG.SmoothFilterTest.testHappy2by2.executor": "Run",
+    "TestNG.Spreadsheet.testAddition.executor": "Run",
+    "TestNG.Spreadsheet.testAddition2.executor": "Run",
+    "TestNG.Spreadsheet.testLoop.executor": "Run",
     "TestNG.TransposeTest.testTranspose.executor": "Run",
     "TestNG.TransposeTest.testTransposeInplace.executor": "Run",
     "TestNG.TransposeTest.testTransposeLarge.executor": "Run",
@@ -126,18 +116,18 @@
       <recent name="palindromesubstring" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.OddIntervalsTest.testOddIntervalsCase1">
-    <configuration name="CommonPrefixesTest.testSimpleCase" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ClientOrders.testGroupBy">
+    <configuration name="ClientOrders.testGroupBy" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="verkd.commonprefix.*" />
+          <option name="PATTERN" value="sigma.orders.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="verkd.commonprefix" />
-      <option name="MAIN_CLASS_NAME" value="verkd.commonprefix.CommonPrefixesTest" />
-      <option name="METHOD_NAME" value="testSimpleCase" />
+      <option name="PACKAGE_NAME" value="sigma.orders" />
+      <option name="MAIN_CLASS_NAME" value="sigma.orders.ClientOrders" />
+      <option name="METHOD_NAME" value="testGroupBy" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -145,17 +135,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddIntervalsTest.testOddIntervalsCase1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientOrders.testLeftOuterJoin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="verkd.oddintervals.*" />
+          <option name="PATTERN" value="sigma.orders.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="verkd.oddintervals" />
-      <option name="MAIN_CLASS_NAME" value="verkd.oddintervals.OddIntervalsTest" />
-      <option name="METHOD_NAME" value="testOddIntervalsCase1" />
+      <option name="PACKAGE_NAME" value="sigma.orders" />
+      <option name="MAIN_CLASS_NAME" value="sigma.orders.ClientOrders" />
+      <option name="METHOD_NAME" value="testLeftOuterJoin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -163,34 +153,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Spreadsheet.testAddition" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="verkd.shortestpath.*" />
+          <option name="PATTERN" value="sigma.sheet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="verkd.shortestpath" />
-      <option name="MAIN_CLASS_NAME" value="verkd.shortestpath.ShortestPathTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShortestPathTest.testSimpleCase" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="coding-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="verkd.shortestpath.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="verkd.shortestpath" />
-      <option name="MAIN_CLASS_NAME" value="verkd.shortestpath.ShortestPathTest" />
-      <option name="METHOD_NAME" value="testSimpleCase" />
+      <option name="PACKAGE_NAME" value="sigma.sheet" />
+      <option name="MAIN_CLASS_NAME" value="sigma.sheet.Spreadsheet" />
+      <option name="METHOD_NAME" value="testAddition" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -198,17 +171,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathTest.testSimpleCase2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Spreadsheet.testAddition2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="verkd.shortestpath.*" />
+          <option name="PATTERN" value="sigma.sheet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="verkd.shortestpath" />
-      <option name="MAIN_CLASS_NAME" value="verkd.shortestpath.ShortestPathTest" />
-      <option name="METHOD_NAME" value="testSimpleCase2" />
+      <option name="PACKAGE_NAME" value="sigma.sheet" />
+      <option name="MAIN_CLASS_NAME" value="sigma.sheet.Spreadsheet" />
+      <option name="METHOD_NAME" value="testAddition2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spreadsheet.testLoop" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="coding-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sigma.sheet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sigma.sheet" />
+      <option name="MAIN_CLASS_NAME" value="sigma.sheet.Spreadsheet" />
+      <option name="METHOD_NAME" value="testLoop" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -218,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.OddIntervalsTest.testOddIntervalsCase1" />
-        <item itemvalue="TestNG.CommonPrefixesTest.testSimpleCase" />
-        <item itemvalue="TestNG.ShortestPathTest.testSimpleCase2" />
-        <item itemvalue="TestNG.ShortestPathTest.testSimpleCase" />
-        <item itemvalue="TestNG.ShortestPathTest" />
+        <item itemvalue="TestNG.ClientOrders.testGroupBy" />
+        <item itemvalue="TestNG.ClientOrders.testLeftOuterJoin" />
+        <item itemvalue="TestNG.Spreadsheet.testLoop" />
+        <item itemvalue="TestNG.Spreadsheet.testAddition" />
+        <item itemvalue="TestNG.Spreadsheet.testAddition2" />
       </list>
     </recent_temporary>
   </component>

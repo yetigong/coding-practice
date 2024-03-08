@@ -30,8 +30,6 @@ public class OddIntervalsTest {
 
     public static void assertListArrayEquals(List<int[]> expected, List<int[]> actual) {
         Assert.assertEquals(expected.size(), actual.size()); // Check size first
-        List<Integer> list = new ArrayList<>();
-        list.stream().max().is
         for (int i = 0; i < expected.size(); i++) {
             Assert.assertEquals(expected.get(i), actual.get(i)); // Check array contents
         }
