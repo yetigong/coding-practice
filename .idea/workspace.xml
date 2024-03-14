@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ce1ec5-676f-421a-b150-26c8b2ab7eb9" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/sigma/orders/ClientOrders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sigma/sheet/Spreadsheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zukesi/tickets/RollerCoaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zukesi/tickets/Tickets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/roblox/obstacle/BotDetect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/roblox/obstacle/EmailGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/roblox/obstacle/NodeTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/roblox/obstacle/ObstaclePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sigma/permission/Permissions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sigma/pivottable/PivotTableSolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/verkd/oddintervals/OddIntervalsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/verkd/oddintervals/OddIntervalsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding-practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coding-practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sigma/sheet/Spreadsheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sigma/sheet/Spreadsheet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,22 +48,30 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BotDetect.executor": "Run",
     "Application.DrawingBoardMain.executor": "Run",
     "Application.Driver.executor": "Run",
+    "Application.EmailGen.executor": "Run",
     "Application.HighestRatingMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MergeFiles.executor": "Debug",
+    "Application.ObstaclePath.executor": "Run",
     "Application.PalindromeSubstringMain.executor": "Run",
+    "Application.Permissions.executor": "Run",
+    "Application.PivotTableSolution.executor": "Run",
     "Application.RollerCoaster.executor": "Run",
     "Application.Spreadsheet.executor": "Run",
     "Application.Tickets.executor": "Run",
     "Application.WordleSolverDriver.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "true",
+    "JUnit.BotDetect.testGreaterThan.executor": "Run",
+    "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "true",
     "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.BotDetect.testGreaterThan.executor": "Run",
+    "TestNG.BotDetect.testIsBot.executor": "Run",
     "TestNG.CameraIntensityTest.multiCamsTest1.executor": "Run",
     "TestNG.CameraIntensityTest.multiCamsTest2.executor": "Run",
     "TestNG.CameraIntensityTest.testSingleCase.executor": "Debug",
@@ -81,7 +92,14 @@
     "TestNG.KVStoreImplTest.testTransMultiThread.executor": "Run",
     "TestNG.KVStoreImplTest.testTransMultiThreadMixedTrans.executor": "Run",
     "TestNG.KVStoreImplTest.testTransRollback.executor": "Run",
+    "TestNG.NodeTraversal.testSimilar.executor": "Run",
+    "TestNG.ObstaclePath.testCourse.executor": "Run",
+    "TestNG.ObstaclePath.testCourse1.executor": "Run",
+    "TestNG.ObstaclePath.testCourse2.executor": "Run",
     "TestNG.OddIntervalsTest.testOddIntervalsCase1.executor": "Run",
+    "TestNG.PivotTableSolution.testPivotTable.executor": "Run",
+    "TestNG.PivotTableSolution.testPivotTable1.executor": "Run",
+    "TestNG.PivotTableSolution.testSubDim.executor": "Run",
     "TestNG.ScoringServiceTest.testHappyPath.executor": "Debug",
     "TestNG.ScoringServiceTest.testTies.executor": "Run",
     "TestNG.ShortestPathTest.executor": "Run",
@@ -116,18 +134,31 @@
       <recent name="palindromesubstring" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ClientOrders.testGroupBy">
-    <configuration name="ClientOrders.testGroupBy" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.NodeTraversal.testSimilar3">
+    <configuration name="EmailGen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="roblox.obstacle.EmailGen" />
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sigma.orders.*" />
+          <option name="PATTERN" value="roblox.obstacle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sigma.orders" />
-      <option name="MAIN_CLASS_NAME" value="sigma.orders.ClientOrders" />
-      <option name="METHOD_NAME" value="testGroupBy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NodeTraversal.testSimilar" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="coding-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="roblox.obstacle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="roblox.obstacle" />
+      <option name="MAIN_CLASS_NAME" value="roblox.obstacle.NodeTraversal" />
+      <option name="METHOD_NAME" value="testSimilar" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -135,17 +166,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientOrders.testLeftOuterJoin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NodeTraversal.testSimilar1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sigma.orders.*" />
+          <option name="PATTERN" value="roblox.obstacle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sigma.orders" />
-      <option name="MAIN_CLASS_NAME" value="sigma.orders.ClientOrders" />
-      <option name="METHOD_NAME" value="testLeftOuterJoin" />
+      <option name="PACKAGE_NAME" value="roblox.obstacle" />
+      <option name="MAIN_CLASS_NAME" value="roblox.obstacle.NodeTraversal" />
+      <option name="METHOD_NAME" value="testSimilar1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -153,17 +184,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spreadsheet.testAddition" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NodeTraversal.testSimilar2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sigma.sheet.*" />
+          <option name="PATTERN" value="roblox.obstacle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sigma.sheet" />
-      <option name="MAIN_CLASS_NAME" value="sigma.sheet.Spreadsheet" />
-      <option name="METHOD_NAME" value="testAddition" />
+      <option name="PACKAGE_NAME" value="roblox.obstacle" />
+      <option name="MAIN_CLASS_NAME" value="roblox.obstacle.NodeTraversal" />
+      <option name="METHOD_NAME" value="testSimilar2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -171,35 +202,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spreadsheet.testAddition2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NodeTraversal.testSimilar3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sigma.sheet.*" />
+          <option name="PATTERN" value="roblox.obstacle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sigma.sheet" />
-      <option name="MAIN_CLASS_NAME" value="sigma.sheet.Spreadsheet" />
-      <option name="METHOD_NAME" value="testAddition2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spreadsheet.testLoop" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="coding-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sigma.sheet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sigma.sheet" />
-      <option name="MAIN_CLASS_NAME" value="sigma.sheet.Spreadsheet" />
-      <option name="METHOD_NAME" value="testLoop" />
+      <option name="PACKAGE_NAME" value="roblox.obstacle" />
+      <option name="MAIN_CLASS_NAME" value="roblox.obstacle.NodeTraversal" />
+      <option name="METHOD_NAME" value="testSimilar3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -209,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ClientOrders.testGroupBy" />
-        <item itemvalue="TestNG.ClientOrders.testLeftOuterJoin" />
-        <item itemvalue="TestNG.Spreadsheet.testLoop" />
-        <item itemvalue="TestNG.Spreadsheet.testAddition" />
-        <item itemvalue="TestNG.Spreadsheet.testAddition2" />
+        <item itemvalue="TestNG.NodeTraversal.testSimilar3" />
+        <item itemvalue="TestNG.NodeTraversal.testSimilar2" />
+        <item itemvalue="TestNG.NodeTraversal.testSimilar1" />
+        <item itemvalue="TestNG.NodeTraversal.testSimilar" />
+        <item itemvalue="Application.EmailGen" />
       </list>
     </recent_temporary>
   </component>
