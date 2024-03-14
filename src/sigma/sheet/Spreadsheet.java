@@ -8,6 +8,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class Spreadsheet {
+
     public static void main(String[] args) {
         Sheet sheet = new Sheet(new String[] {"a", "b", "c"});
         sheet.set(0, "a", 1);
