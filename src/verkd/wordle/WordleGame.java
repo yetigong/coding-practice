@@ -6,7 +6,7 @@ import com.google.common.collect.ImmutableMap;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class WordleGame {
+public class  WordleGame {
     static final ImmutableList<String> dict = ImmutableList.<String>builder()
             .add("blind")
             .add("sheet")
