@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ce1ec5-676f-421a-b150-26c8b2ab7eb9" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/roblox/obstacle/BotDetect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/roblox/obstacle/EmailGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/roblox/obstacle/NodeTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/roblox/obstacle/ObstaclePath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sigma/permission/Permissions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sigma/pivottable/PivotTableSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/roblox/obstacle/Frog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/roblox/obstacle/Shuffle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding-practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coding-practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sigma/sheet/Spreadsheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sigma/sheet/Spreadsheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roblox/obstacle/BotDetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/roblox/obstacle/BotDetect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +76,15 @@
     "TestNG.ClientOrders.testGroupBy.executor": "Run",
     "TestNG.ClientOrders.testLeftOuterJoin.executor": "Run",
     "TestNG.CommonPrefixesTest.testSimpleCase.executor": "Run",
+    "TestNG.Frog.testCroak.executor": "Run",
+    "TestNG.Frog.testCroak1.executor": "Run",
+    "TestNG.Frog.testCroak2.executor": "Run",
+    "TestNG.Frog.testCroakBad.executor": "Run",
+    "TestNG.Frog.testRoblox.executor": "Run",
+    "TestNG.Frog.testRoblox1.executor": "Run",
+    "TestNG.Frog.testRoblox2.executor": "Run",
+    "TestNG.Frog.testRoblox3.executor": "Run",
+    "TestNG.Frog.testRobloxBad.executor": "Run",
     "TestNG.HighestRatingMain.executor": "Run",
     "TestNG.HighestRatingMain.testHappyPath.executor": "Run",
     "TestNG.KVStoreImplTest.testBasicCaseNoTrans.executor": "Run",
@@ -93,6 +97,9 @@
     "TestNG.KVStoreImplTest.testTransMultiThreadMixedTrans.executor": "Run",
     "TestNG.KVStoreImplTest.testTransRollback.executor": "Run",
     "TestNG.NodeTraversal.testSimilar.executor": "Run",
+    "TestNG.NodeTraversal.testSimilar1.executor": "Run",
+    "TestNG.NodeTraversal.testSimilar2.executor": "Run",
+    "TestNG.NodeTraversal.testSimilar3.executor": "Run",
     "TestNG.ObstaclePath.testCourse.executor": "Run",
     "TestNG.ObstaclePath.testCourse1.executor": "Run",
     "TestNG.ObstaclePath.testCourse2.executor": "Run",
@@ -107,6 +114,8 @@
     "TestNG.ShortestPathTest.testDKSimpleCase.executor": "Run",
     "TestNG.ShortestPathTest.testSimpleCase.executor": "Run",
     "TestNG.ShortestPathTest.testSimpleCase2.executor": "Run",
+    "TestNG.Shuffle.testIsRandom.executor": "Run",
+    "TestNG.Shuffle.testIsShuffle.executor": "Run",
     "TestNG.SmoothFilterTest.executor": "Run",
     "TestNG.SmoothFilterTest.test.executor": "Run",
     "TestNG.SmoothFilterTest.testHappy2by2.executor": "Run",
@@ -134,21 +143,8 @@
       <recent name="palindromesubstring" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NodeTraversal.testSimilar3">
-    <configuration name="EmailGen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="roblox.obstacle.EmailGen" />
-      <module name="coding-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="roblox.obstacle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NodeTraversal.testSimilar" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Shuffle.testIsShuffle">
+    <configuration name="Frog.testCroak" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
@@ -157,8 +153,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="roblox.obstacle" />
-      <option name="MAIN_CLASS_NAME" value="roblox.obstacle.NodeTraversal" />
-      <option name="METHOD_NAME" value="testSimilar" />
+      <option name="MAIN_CLASS_NAME" value="roblox.obstacle.Frog" />
+      <option name="METHOD_NAME" value="testCroak" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -166,7 +162,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeTraversal.testSimilar1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Frog.testCroak1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
@@ -175,8 +171,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="roblox.obstacle" />
-      <option name="MAIN_CLASS_NAME" value="roblox.obstacle.NodeTraversal" />
-      <option name="METHOD_NAME" value="testSimilar1" />
+      <option name="MAIN_CLASS_NAME" value="roblox.obstacle.Frog" />
+      <option name="METHOD_NAME" value="testCroak1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -184,7 +180,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeTraversal.testSimilar2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Frog.testCroak2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
@@ -193,8 +189,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="roblox.obstacle" />
-      <option name="MAIN_CLASS_NAME" value="roblox.obstacle.NodeTraversal" />
-      <option name="METHOD_NAME" value="testSimilar2" />
+      <option name="MAIN_CLASS_NAME" value="roblox.obstacle.Frog" />
+      <option name="METHOD_NAME" value="testCroak2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -202,7 +198,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeTraversal.testSimilar3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Frog.testCroakBad" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
@@ -211,8 +207,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="roblox.obstacle" />
-      <option name="MAIN_CLASS_NAME" value="roblox.obstacle.NodeTraversal" />
-      <option name="METHOD_NAME" value="testSimilar3" />
+      <option name="MAIN_CLASS_NAME" value="roblox.obstacle.Frog" />
+      <option name="METHOD_NAME" value="testCroakBad" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shuffle.testIsShuffle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="coding-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="roblox.obstacle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="roblox.obstacle" />
+      <option name="MAIN_CLASS_NAME" value="roblox.obstacle.Shuffle" />
+      <option name="METHOD_NAME" value="testIsShuffle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -222,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.NodeTraversal.testSimilar3" />
-        <item itemvalue="TestNG.NodeTraversal.testSimilar2" />
-        <item itemvalue="TestNG.NodeTraversal.testSimilar1" />
-        <item itemvalue="TestNG.NodeTraversal.testSimilar" />
-        <item itemvalue="Application.EmailGen" />
+        <item itemvalue="TestNG.Shuffle.testIsShuffle" />
+        <item itemvalue="TestNG.Frog.testCroak2" />
+        <item itemvalue="TestNG.Frog.testCroak1" />
+        <item itemvalue="TestNG.Frog.testCroakBad" />
+        <item itemvalue="TestNG.Frog.testCroak" />
       </list>
     </recent_temporary>
   </component>
@@ -279,6 +293,11 @@
           <url>file://$PROJECT_DIR$/src/verkd/transpose/TransposeTest.java</url>
           <line>37</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/roblox/obstacle/Shuffle.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -75,8 +75,7 @@ public class BotDetect {
                     .map(t -> hits.getOrDefault(t, 0)).mapToInt(Integer::valueOf).sum() >= n;
         }
     }
-
-
+    
     @Test
     public void testGreaterThan() {
         List<String> inputs = List.of(
