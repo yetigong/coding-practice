@@ -70,28 +70,35 @@ public class MergeFiles {
         Map<String, BufferedReader> fileReaders = new HashMap<>();
         String outputName = "output." + System.currentTimeMillis();
         BufferedWriter bw = new BufferedWriter(new FileWriter(outputName));
-        for (int i = 0; i < fileNames.size(); i++) {
-            String fileName = fileNames.get(i);
-            BufferedReader br = getBufferedReaderForFile(fileName);
-            if (br != null) {
-                String firstLine = br.readLine();
-                Log log = Log.parse(firstLine, fileName);
-                if (log != null) {
-                    merger.offer(log);
+        try {
+            for (int i = 0; i < fileNames.size(); i++) {
+                String fileName = fileNames.get(i);
+                BufferedReader br = getBufferedReaderForFile(fileName);
+                if (br != null) {
+                    String firstLine = br.readLine();
+                    Log log = Log.parse(firstLine, fileName);
+                    if (log != null) {
+                        merger.offer(log);
+                    }
+                    fileReaders.put(fileName, br);
                 }
-                fileReaders.put(fileName, br);
             }
-        }
 
-        while (!merger.isEmpty()) {
-            Log log = merger.poll();
-            bw.append(String.format("%s %s %n", log.timestamp, log.logMessage));
-            bw.flush(); // can optimize to batch flush
+            while (!merger.isEmpty()) {
+                Log log = merger.poll();
+                bw.append(String.format("%s %s %n", log.timestamp, log.logMessage));
+                bw.flush(); // can optimize to batch flush
 
-            String nextLine = fileReaders.get(log.fileName).readLine();
-            Log nextLog = Log.parse(nextLine, log.fileName);
-            if (nextLog != null) {
-                merger.offer(nextLog);
+                String nextLine = fileReaders.get(log.fileName).readLine();
+                Log nextLog = Log.parse(nextLine, log.fileName);
+                if (nextLog != null) {
+                    merger.offer(nextLog);
+                }
+            }
+        } finally {
+            bw.close();
+            for (BufferedReader br: fileReaders.values()) {
+                br.close();
             }
         }
     }

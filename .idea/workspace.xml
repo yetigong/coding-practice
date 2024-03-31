@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ce1ec5-676f-421a-b150-26c8b2ab7eb9" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/oai/IteratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oai/RateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oai/SQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oai/TimeKV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verkd/RobotPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sigma/json/JsonParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zukesi/tickets/Stock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/mergefiles/MergeFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/verkd/mergefiles/MergeFiles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +76,7 @@
     "Application.EmailGen.executor": "Run",
     "Application.HighestRatingMain.executor": "Run",
     "Application.IteratorTest.executor": "Run",
+    "Application.JsonParser.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MergeFiles.executor": "Debug",
     "Application.ObstaclePath.executor": "Run",
@@ -87,6 +87,7 @@
     "Application.RollerCoaster.executor": "Run",
     "Application.SQL.executor": "Run",
     "Application.Spreadsheet.executor": "Run",
+    "Application.Stock.executor": "Run",
     "Application.Tickets.executor": "Run",
     "Application.TimeKV.executor": "Run",
     "Application.WordleSolverDriver.executor": "Run",
@@ -164,13 +165,26 @@
       <recent name="palindromesubstring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RateLimiter">
+  <component name="RunManager" selected="Application.Stock">
     <configuration name="IteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oai.IteratorTest" />
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="oai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sigma.json.JsonParser" />
+      <module name="coding-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sigma.json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SQL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oai.SQL" />
+    <configuration name="Stock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zukesi.tickets.Stock" />
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oai.*" />
+          <option name="PATTERN" value="zukesi.tickets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,29 +231,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RobotPath.testRobot1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="verkd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="verkd" />
-      <option name="MAIN_CLASS_NAME" value="verkd.RobotPath" />
-      <option name="METHOD_NAME" value="testRobot1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Stock" />
+        <item itemvalue="Application.JsonParser" />
         <item itemvalue="Application.RateLimiter" />
         <item itemvalue="Application.IteratorTest" />
         <item itemvalue="Application.TimeKV" />
-        <item itemvalue="Application.SQL" />
-        <item itemvalue="JUnit.RobotPath.testRobot1" />
       </list>
     </recent_temporary>
   </component>
