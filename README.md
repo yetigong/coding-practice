@@ -9,7 +9,7 @@ git checkout -b bopan/banch
 git add . && git commit -m ""
 
 <p><b>create PR</b></p>
-git push --set-upstream coding-practice bopan/branch
+git push -u origin testbranch
 
 <p><b>in case invalid username or password, follow the link https://github.com/settings/tokens?page=1 to create access token </b></p>
 
