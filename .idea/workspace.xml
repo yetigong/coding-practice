@@ -5,11 +5,87 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ce1ec5-676f-421a-b150-26c8b2ab7eb9" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sigma/json/JsonParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zukesi/tickets/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/discord/JsonSimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/discord/JsonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/verkd/mergefiles/MergeFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/verkd/mergefiles/MergeFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coupang/circuitbreaker/CircuitBreaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/circuitbreaker/CircuitBreaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coupang/circuitbreaker/HealthMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/circuitbreaker/HealthMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coupang/circuitbreaker/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/circuitbreaker/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coupang/circuitbreaker/StateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/circuitbreaker/StateManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coupang/circuitbreaker/WrappedClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/circuitbreaker/WrappedClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oai/IteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oai/IteratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oai/RateLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oai/RateLimiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oai/SQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oai/SQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oai/TimeKV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oai/TimeKV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/palindromesubstring/PalindromeSubstringCut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/palindromesubstring/PalindromeSubstringCut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/palindromesubstring/PalindromeSubstringDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/palindromesubstring/PalindromeSubstringDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/palindromesubstring/PalindromeSubstringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/palindromesubstring/PalindromeSubstringMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rippling/drawingboard/DrawingBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rippling/drawingboard/DrawingBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rippling/drawingboard/DrawingBoardDisplayOpt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rippling/drawingboard/DrawingBoardDisplayOpt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rippling/drawingboard/DrawingBoardImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rippling/drawingboard/DrawingBoardImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rippling/drawingboard/DrawingBoardMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rippling/drawingboard/DrawingBoardMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rippling/drawingboard/Layer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rippling/drawingboard/Layer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rippling/kvstore/KVStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rippling/kvstore/KVStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rippling/kvstore/KVStoreImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rippling/kvstore/KVStoreImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rippling/kvstore/KVStoreImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rippling/kvstore/KVStoreImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rippling/reporting/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rippling/reporting/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rippling/reporting/HighestRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rippling/reporting/HighestRating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rippling/reporting/HighestRatingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rippling/reporting/HighestRatingMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roblox/obstacle/BotDetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/obstacle/BotDetect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roblox/obstacle/EmailGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/obstacle/EmailGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roblox/obstacle/NodeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/obstacle/NodeTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roblox/obstacle/ObstaclePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/obstacle/ObstaclePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scaleai/cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scaleai/cards/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/CardGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scaleai/cards/CardGameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/CardGameFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scaleai/cards/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scaleai/cards/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scaleai/cards/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scaleai/cards/comparegame/CompareGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/comparegame/CompareGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scaleai/cards/samesuit/CardPointRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/samesuit/CardPointRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scaleai/cards/samesuit/PlayerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/samesuit/PlayerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scaleai/cards/samesuit/SameSuitGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/samesuit/SameSuitGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scaleai/cards/samesuit/ScoringService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/samesuit/ScoringService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scaleai/cards/samesuit/ScoringServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/samesuit/ScoringServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sigma/json/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigma/json/JsonParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sigma/orders/ClientOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigma/orders/ClientOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sigma/permission/Permissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigma/permission/Permissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sigma/pivottable/PivotTableSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigma/pivottable/PivotTableSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sigma/sheet/Spreadsheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigma/sheet/Spreadsheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smoothfilter/SmoothFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smoothfilter/SmoothFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smoothfilter/SmoothFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smoothfilter/SmoothFilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ArrayUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/RobotPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/RobotPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/cameraintensity/CameraIntensity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/cameraintensity/CameraIntensity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/cameraintensity/CameraIntensityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/cameraintensity/CameraIntensityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/cameraintensity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/cameraintensity/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/cameraintensity/MotionPeriod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/cameraintensity/MotionPeriod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/commonprefix/CommonPrefixes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/commonprefix/CommonPrefixes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/commonprefix/CommonPrefixesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/commonprefix/CommonPrefixesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/mergefiles/MergeFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/mergefiles/MergeFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/mergefiles/log1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/mergefiles/log1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/mergefiles/log2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/mergefiles/log2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/mergefiles/log3" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/mergefiles/log3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/mergefiles/log4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/mergefiles/log4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/mergefiles/log5" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/mergefiles/log5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/oddintervals/OddIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/oddintervals/OddIntervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/oddintervals/OddIntervalsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/oddintervals/OddIntervalsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/shortestpath/ShortestPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/shortestpath/ShortestPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/shortestpath/ShortestPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/shortestpath/ShortestPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/transpose/Transpose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/transpose/Transpose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/transpose/TransposeInplace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/transpose/TransposeInplace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/transpose/TransposeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/transpose/TransposeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/wordle/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/wordle/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/wordle/Wordle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/wordle/Wordle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/wordle/WordleGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/wordle/WordleGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/wordle/WordleSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/wordle/WordleSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verkd/wordle/WordleSolverDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkd/wordle/WordleSolverDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zukesi/tickets/RollerCoaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/RollerCoaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zukesi/tickets/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zukesi/tickets/Tickets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/Tickets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +153,8 @@
     "Application.HighestRatingMain.executor": "Run",
     "Application.IteratorTest.executor": "Run",
     "Application.JsonParser.executor": "Run",
+    "Application.JsonSimple.executor": "Run",
+    "Application.JsonTest.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MergeFiles.executor": "Debug",
     "Application.ObstaclePath.executor": "Run",
@@ -95,11 +173,16 @@
     "JUnit.BotDetect.testGreaterThan.executor": "Run",
     "JUnit.RobotPath.testRobot.executor": "Run",
     "JUnit.RobotPath.testRobot1.executor": "Run",
+    "Maven.coding-practice [compile].executor": "Run",
+    "Maven.coding-practice [deploy].executor": "Run",
+    "Maven.coding-practice [test].executor": "Run",
+    "Maven.coding-practice [validate].executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "true",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.BotDetect.testGreaterThan.executor": "Run",
     "TestNG.BotDetect.testIsBot.executor": "Run",
     "TestNG.CameraIntensityTest.multiCamsTest1.executor": "Run",
@@ -150,10 +233,10 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/bopan/IdeaProjects/coding-practice",
     "onboarding.tips.debug.path": "/Users/bopan/IdeaProjects/coding-practice/src/Main.java",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -165,13 +248,13 @@
       <recent name="palindromesubstring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Stock">
-    <configuration name="IteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oai.IteratorTest" />
+  <component name="RunManager" selected="Application.WordleSolverDriver">
+    <configuration name="JsonSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="discord.JsonSimple" />
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oai.*" />
+          <option name="PATTERN" value="discord.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,25 +262,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sigma.json.JsonParser" />
+    <configuration name="JsonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="discord.JsonTest" />
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sigma.json.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RateLimiter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oai.RateLimiter" />
-      <module name="coding-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oai.*" />
+          <option name="PATTERN" value="discord.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,12 +288,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeKV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oai.TimeKV" />
+    <configuration name="WordleSolverDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="verkd.wordle.WordleSolverDriver" />
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oai.*" />
+          <option name="PATTERN" value="verkd.wordle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,13 +301,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="coding-practice [compile]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compile" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordleSolverDriver" />
+        <item itemvalue="Maven.coding-practice [compile]" />
+        <item itemvalue="Application.JsonSimple" />
+        <item itemvalue="Application.JsonTest" />
         <item itemvalue="Application.Stock" />
-        <item itemvalue="Application.JsonParser" />
-        <item itemvalue="Application.RateLimiter" />
-        <item itemvalue="Application.IteratorTest" />
-        <item itemvalue="Application.TimeKV" />
       </list>
     </recent_temporary>
   </component>
@@ -299,12 +399,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/verkd/transpose/TransposeTest.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/verkd/transpose/TransposeTest.java</url>
           <line>37</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/oai/RateLimiter.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/oai/RateLimiter.java</url>
           <line>36</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
