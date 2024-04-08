@@ -3,6 +3,18 @@ package gpt;
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/***
+ * Description:
+ * Design a thread-safe counter that can be incremented by multiple threads concurrently without leading to race conditions. Ensure that your implementation minimizes the performance impact often associated with locking mechanisms.
+ *
+ * Requirements:
+ *
+ * Implement a class ThreadSafeCounter with the following methods:
+ * increment(): Increments the counter by 1 in a thread-safe manner.
+ * getCount(): Returns the current count value.
+ * Use locks to ensure that your counter is thread-safe.
+ * Write a simple test case that creates multiple threads (e.g., 10 threads) where each thread increments the counter 100 times. After all threads complete their execution, the final count should be 1000.
+ */
 public class MultithreadCounter {
     public static class ThreadSafeCounter {
         AtomicInteger counter;
