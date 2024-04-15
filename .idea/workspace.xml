@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ce1ec5-676f-421a-b150-26c8b2ab7eb9" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gpt/MultithreadCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sf/KVStoreWithTrans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sf/PartialReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sf/TreeLeaveEqual.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding-practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coding-practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/verkd/mergefiles/log1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/verkd/mergefiles/log2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/verkd/mergefiles/log3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/verkd/mergefiles/log4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/verkd/mergefiles/log5" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,11 +129,19 @@
     "TestNG.KVStoreImplTest.testTransMultiThread.executor": "Run",
     "TestNG.KVStoreImplTest.testTransMultiThreadMixedTrans.executor": "Run",
     "TestNG.KVStoreImplTest.testTransRollback.executor": "Run",
+    "TestNG.KVStoreWithTrans.testCase1.executor": "Run",
+    "TestNG.KVStoreWithTrans.testCaseNested.executor": "Run",
+    "TestNG.KVStoreWithTrans.testForDeadlock.executor": "Run",
     "TestNG.NodeTraversal.testSimilar.executor": "Run",
     "TestNG.ObstaclePath.testCourse.executor": "Run",
     "TestNG.ObstaclePath.testCourse1.executor": "Run",
     "TestNG.ObstaclePath.testCourse2.executor": "Run",
     "TestNG.OddIntervalsTest.testOddIntervalsCase1.executor": "Run",
+    "TestNG.PartialReverse.testHappyPath.executor": "Run",
+    "TestNG.PartialReverse.testHappyPath1.executor": "Run",
+    "TestNG.PartialReverse.testHappyPath2.executor": "Run",
+    "TestNG.PartialReverse.testHappyPath3.executor": "Run",
+    "TestNG.PartialReverse.testHappyPath4.executor": "Run",
     "TestNG.PivotTableSolution.testPivotTable.executor": "Run",
     "TestNG.PivotTableSolution.testPivotTable1.executor": "Run",
     "TestNG.PivotTableSolution.testSubDim.executor": "Run",
@@ -157,6 +161,8 @@
     "TestNG.TransposeTest.testTranspose.executor": "Run",
     "TestNG.TransposeTest.testTransposeInplace.executor": "Run",
     "TestNG.TransposeTest.testTransposeLarge.executor": "Run",
+    "TestNG.TreeLeaveEqual.testHappyPath.executor": "Run",
+    "TestNG.TreeLeaveEqual.testSadPath.executor": "Run",
     "git-widget-placeholder": "testbranch",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/bopan/IdeaProjects/coding-practice",
@@ -176,96 +182,104 @@
       <recent name="palindromesubstring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultithreadCounter">
-    <configuration name="JsonSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="discord.JsonSimple" />
+  <component name="RunManager" selected="TestNG.KVStoreWithTrans.testForDeadlock">
+    <configuration name="KVStoreWithTrans.testCase1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="discord.*" />
+          <option name="PATTERN" value="sf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="sf" />
+      <option name="MAIN_CLASS_NAME" value="sf.KVStoreWithTrans" />
+      <option name="METHOD_NAME" value="testCase1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="discord.JsonTest" />
+    <configuration name="KVStoreWithTrans.testCaseNested" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="discord.*" />
+          <option name="PATTERN" value="sf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="sf" />
+      <option name="MAIN_CLASS_NAME" value="sf.KVStoreWithTrans" />
+      <option name="METHOD_NAME" value="testCaseNested" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultithreadCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gpt.MultithreadCounter" />
+    <configuration name="KVStoreWithTrans.testForDeadlock" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gpt.*" />
+          <option name="PATTERN" value="sf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="sf" />
+      <option name="MAIN_CLASS_NAME" value="sf.KVStoreWithTrans" />
+      <option name="METHOD_NAME" value="testForDeadlock" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordleSolverDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="verkd.wordle.WordleSolverDriver" />
+    <configuration name="TreeLeaveEqual.testHappyPath" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="verkd.wordle.*" />
+          <option name="PATTERN" value="sf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="sf" />
+      <option name="MAIN_CLASS_NAME" value="sf.TreeLeaveEqual" />
+      <option name="METHOD_NAME" value="testHappyPath" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="coding-practice [compile]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="cmdOptions" />
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="compile" />
-              </list>
-            </option>
-            <option name="multimoduleDir" />
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="projectsCmdOptionValues">
-              <list />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
+    <configuration name="TreeLeaveEqual.testSadPath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="coding-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sf" />
+      <option name="MAIN_CLASS_NAME" value="sf.TreeLeaveEqual" />
+      <option name="METHOD_NAME" value="testSadPath" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MultithreadCounter" />
-        <item itemvalue="Application.WordleSolverDriver" />
-        <item itemvalue="Maven.coding-practice [compile]" />
-        <item itemvalue="Application.JsonSimple" />
-        <item itemvalue="Application.JsonTest" />
+        <item itemvalue="TestNG.KVStoreWithTrans.testForDeadlock" />
+        <item itemvalue="TestNG.KVStoreWithTrans.testCaseNested" />
+        <item itemvalue="TestNG.KVStoreWithTrans.testCase1" />
+        <item itemvalue="TestNG.TreeLeaveEqual.testSadPath" />
+        <item itemvalue="TestNG.TreeLeaveEqual.testHappyPath" />
       </list>
     </recent_temporary>
   </component>
