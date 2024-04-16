@@ -29,3 +29,6 @@ bin/
 .DS_Store
 ./out
 ./target
+
+### intellij related updates
+.idea

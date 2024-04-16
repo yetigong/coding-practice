@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ce1ec5-676f-421a-b150-26c8b2ab7eb9" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sf/KVStoreWithTrans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sf/PartialReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sf/TreeLeaveEqual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sf/StringTransformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,6 +157,16 @@
     "TestNG.Spreadsheet.testAddition.executor": "Run",
     "TestNG.Spreadsheet.testAddition2.executor": "Run",
     "TestNG.Spreadsheet.testLoop.executor": "Run",
+    "TestNG.StringTransformation (1).executor": "Run",
+    "TestNG.StringTransformation (2).executor": "Run",
+    "TestNG.StringTransformation.executor": "Run",
+    "TestNG.StringTransformation.testFindRotationPoint.executor": "Debug",
+    "TestNG.StringTransformation.testFindRotationPoint1.executor": "Run",
+    "TestNG.StringTransformation.testOvearll.executor": "Debug",
+    "TestNG.StringTransformation.testOverall1.executor": "Run",
+    "TestNG.StringTransformation.testOverall2.executor": "Run",
+    "TestNG.StringTransformation.testOverall3.executor": "Debug",
+    "TestNG.StringTransformation.testTransformToTarget.executor": "Run",
     "TestNG.TransposeTest.testTranspose.executor": "Run",
     "TestNG.TransposeTest.testTransposeInplace.executor": "Run",
     "TestNG.TransposeTest.testTransposeLarge.executor": "Run",
@@ -182,8 +191,8 @@
       <recent name="palindromesubstring" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.KVStoreWithTrans.testForDeadlock">
-    <configuration name="KVStoreWithTrans.testCase1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.StringTransformation.testOverall3">
+    <configuration name="StringTransformation.testFindRotationPoint" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
@@ -192,8 +201,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sf" />
-      <option name="MAIN_CLASS_NAME" value="sf.KVStoreWithTrans" />
-      <option name="METHOD_NAME" value="testCase1" />
+      <option name="MAIN_CLASS_NAME" value="sf.StringTransformation" />
+      <option name="METHOD_NAME" value="testFindRotationPoint" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -201,7 +210,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KVStoreWithTrans.testCaseNested" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StringTransformation.testOvearll" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
@@ -210,8 +219,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sf" />
-      <option name="MAIN_CLASS_NAME" value="sf.KVStoreWithTrans" />
-      <option name="METHOD_NAME" value="testCaseNested" />
+      <option name="MAIN_CLASS_NAME" value="sf.StringTransformation" />
+      <option name="METHOD_NAME" value="testOvearll" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -219,7 +228,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KVStoreWithTrans.testForDeadlock" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StringTransformation.testOverall1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
@@ -228,8 +237,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sf" />
-      <option name="MAIN_CLASS_NAME" value="sf.KVStoreWithTrans" />
-      <option name="METHOD_NAME" value="testForDeadlock" />
+      <option name="MAIN_CLASS_NAME" value="sf.StringTransformation" />
+      <option name="METHOD_NAME" value="testOverall1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -237,7 +246,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeLeaveEqual.testHappyPath" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StringTransformation.testOverall2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
@@ -246,8 +255,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sf" />
-      <option name="MAIN_CLASS_NAME" value="sf.TreeLeaveEqual" />
-      <option name="METHOD_NAME" value="testHappyPath" />
+      <option name="MAIN_CLASS_NAME" value="sf.StringTransformation" />
+      <option name="METHOD_NAME" value="testOverall2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -255,7 +264,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeLeaveEqual.testSadPath" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StringTransformation.testOverall3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="coding-practice" />
       <extension name="coverage">
         <pattern>
@@ -264,8 +273,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sf" />
-      <option name="MAIN_CLASS_NAME" value="sf.TreeLeaveEqual" />
-      <option name="METHOD_NAME" value="testSadPath" />
+      <option name="MAIN_CLASS_NAME" value="sf.StringTransformation" />
+      <option name="METHOD_NAME" value="testOverall3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -275,11 +284,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.KVStoreWithTrans.testForDeadlock" />
-        <item itemvalue="TestNG.KVStoreWithTrans.testCaseNested" />
-        <item itemvalue="TestNG.KVStoreWithTrans.testCase1" />
-        <item itemvalue="TestNG.TreeLeaveEqual.testSadPath" />
-        <item itemvalue="TestNG.TreeLeaveEqual.testHappyPath" />
+        <item itemvalue="TestNG.StringTransformation.testOverall3" />
+        <item itemvalue="TestNG.StringTransformation.testOvearll" />
+        <item itemvalue="TestNG.StringTransformation.testOverall1" />
+        <item itemvalue="TestNG.StringTransformation.testOverall2" />
+        <item itemvalue="TestNG.StringTransformation.testFindRotationPoint" />
       </list>
     </recent_temporary>
   </component>
@@ -349,6 +358,36 @@
           <url>file://$PROJECT_DIR$/src/main/java/oai/RateLimiter.java</url>
           <line>36</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sf/StringTransformation.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sf/StringTransformation.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sf/StringTransformation.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sf/StringTransformation.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sf/StringTransformation.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sf/StringTransformation.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
